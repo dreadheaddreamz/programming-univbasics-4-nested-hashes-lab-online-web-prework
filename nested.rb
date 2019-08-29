@@ -81,7 +81,12 @@ programmer_hash =
         }
      }
 
-    
+    programmer_hash.upshift[:yukihiro_matsumoto] = { 
+  [:known_for] => "Ruby"
+  [:languages] => ["LISP","C"] 
+  programmer_hash
+}
+
 end
 
 def changing_alan
